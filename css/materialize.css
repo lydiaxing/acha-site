@@ -4,6 +4,13 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
+/* ---- typed.js container ---- */
+#typed {
+  position: absolute;
+  background-color: blue;
+  z-index: 1;
+}
+
  canvas {
    display: block;
    vertical-align: bottom;
