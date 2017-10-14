@@ -6,6 +6,8 @@
 
 /* ---- typed.js container ---- */
 #typed {
+  width: 100px;
+  height: 100px;
   position: absolute;
   background-color: blue;
   z-index: 1;
