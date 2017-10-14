@@ -1,0 +1,17 @@
+{
+  "name": "acha-site",
+  "version": "1.0.0",
+  "description": "lydia xing portfolio website",
+  "main": "index.js",
+  "dependencies": {
+    "particles.js": "^2.0.0",
+    "scrollreveal": "^3.3.6",
+    "typed.js": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
