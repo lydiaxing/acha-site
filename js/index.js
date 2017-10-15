@@ -112,7 +112,10 @@ particlesJS("particles-js", {
 });
 
 var options = {
-  strings: ["robots", "android apps", "web dev"],
-  typeSpeed: 30
+  strings: ["hello", "robots.", "android apps.", "web dev."],
+  typeSpeed: 100,
+  backSpeed: 80,
+  startDelay: 40,
+  loop: true
 }
 var typed = new Typed("#typed-strings", options);

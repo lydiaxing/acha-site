@@ -8,29 +8,38 @@
      <!--Let browser know website is optimized for mobile-->
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      <script src="https://use.fontawesome.com/eb7144e183.js"></script>
+     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+     <script>
+      window.sr = ScrollReveal();
+     </script>
    </head>
 
    <body>
      <div id="particles-js"></div>
 
-     <nav>
-       <div id="name">Lydia Xing</div>
+     <nav class ="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <a id="name" href="#" class="brand-logo">Lydia Xing</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></a></li>
+          <li><a><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
+          <li><a><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+          <li><a><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </nav>
 
-       <div id="buttons">
-         <a class="waves-effect waves-dark circle"><i class="header-button fa fa-file-text-o fa-2x" aria-hidden="true"></i></a>
-         <a class="waves-effect waves-dark circle"><i class="header-button fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-         <a class="waves-effect waves-dark circle"><i class="header-button fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-         <a class="waves-effect waves-dark circle"><i class="header-button fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
-       </div>
-   </nav>
-     <!--<div class="container">
-       <div id="picture">
-         <img class="responsive-img circle z-depth-4" src="static\holdingdriverstationfl.jpg"></img>
-       </div>
+    <div class="valign center-align container" id="picture">
+      <img class="circle responsive-img z-depth-2" src="static\holdingdriverstationfl.jpg"></img>
+    </div>
 
-       <div id="typed-strings">
-       </div>
-     </div>-->
+    <div class="valign center-align container" id="typed-strings">
+    </div>
+
+    <script>
+      sr.reveal('.particles-js', {origin: 'bottom'});
+      sr.reveal('.nav-wrapper', {origin: 'bottom'});
+    </script>
 
      <!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
      <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
