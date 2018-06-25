@@ -1,0 +1,19 @@
+{
+  "name": "personal-web",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"http://materializecss.com/\">\r     <img src=\"http://materializecss.com/res/materialize.svg\" width=\"150\">\r   </a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lydiaxing/personal-web.git"
+  },
+  "author": "Lydia Xing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lydiaxing/personal-web/issues"
+  },
+  "homepage": "https://github.com/lydiaxing/personal-web#readme"
+}
